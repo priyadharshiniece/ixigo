@@ -32,6 +32,7 @@ public class FlightReviewPage extends Page {
 		System.out.println(x[0].substring(1));
 		int travellerDetails = Integer.parseInt(x[0].substring(1));
 		Assert.assertTrue(travellerDetails == tot);
+		log.info("Number of passengers travelling");
 
 	}
 
