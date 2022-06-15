@@ -1,0 +1,1 @@
+DEBUG   2022-06-14 16:42:10,855 [main] devpinoyLogger  - Launching Chrome

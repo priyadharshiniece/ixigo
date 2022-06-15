@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="extentlisteners.ExtentListeners"></listener>
+	</listeners>
+		<test name="HotelSearchPage Links">
+			<classes>
+				<class name="testcases.FlightSearchTest" />
+			</classes>
+		</test>
+		<test name="FlightList Page">
+			<classes>
+				<class name="testcases.FlightsListTest" />
+			</classes>
+		</test>
+		<test name="FlightReview Page">
+			<classes>
+				<class name="testcases.FlightReviewTest" />
+			</classes>
+		</test>
+
+</suite> 
